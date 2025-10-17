@@ -1,0 +1,1 @@
+/usr/bin/c++ -pthread -O0 -g -w CMakeFiles/project_2.dir/main.cpp.o -o /home/lorenzo/CLionProjects/Eagle-project-Marcon/bin/project_2  -Wl,-rpath,/home/lorenzo/CLionProjects/Eagle-project-Marcon/build libProject2.so 

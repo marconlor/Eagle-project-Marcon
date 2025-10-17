@@ -1,0 +1,4 @@
+/home/lorenzo/CLionProjects/Eagle-project-Marcon/build/CMakeFiles/Project2.dir
+/home/lorenzo/CLionProjects/Eagle-project-Marcon/build/CMakeFiles/project_2.dir
+/home/lorenzo/CLionProjects/Eagle-project-Marcon/build/CMakeFiles/edit_cache.dir
+/home/lorenzo/CLionProjects/Eagle-project-Marcon/build/CMakeFiles/rebuild_cache.dir
