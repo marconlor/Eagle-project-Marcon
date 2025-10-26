@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/lorenzo/CLionProjects/Eagle-project-Marcon
 
-CXX_FLAGS = -pthread -O0 -g -w -std=c++20
+CXX_FLAGS =  -pthread -O0 -g -w -std=c++20
 

@@ -190,6 +190,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_2.dir/build.make CMakeFiles/project_2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+receiver.o: receiver.cpp.o
+.PHONY : receiver.o
+
+# target to build an object file
+receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/receiver.cpp.o
+.PHONY : receiver.cpp.o
+
+receiver.i: receiver.cpp.i
+.PHONY : receiver.i
+
+# target to preprocess a source file
+receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/receiver.cpp.i
+.PHONY : receiver.cpp.i
+
+receiver.s: receiver.cpp.s
+.PHONY : receiver.s
+
+# target to generate assembly for a file
+receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/receiver.cpp.s
+.PHONY : receiver.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,6 +230,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... receiver.o"
+	@echo "... receiver.i"
+	@echo "... receiver.s"
 .PHONY : help
 
 

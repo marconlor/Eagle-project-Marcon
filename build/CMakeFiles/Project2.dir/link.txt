@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libProject2.so -o libProject2.so CMakeFiles/Project2.dir/fake_receiver.c.o 
+/usr/bin/c++ -fPIC  -pthread -O0 -g -w -shared -Wl,-soname,libProject2.so -o libProject2.so CMakeFiles/Project2.dir/receiver.cpp.o CMakeFiles/Project2.dir/fake_receiver.c.o 
